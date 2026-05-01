@@ -1,0 +1,29 @@
+{
+  "overview": "Premium animated 3D school website for Cutie Pie Kids Pre School — a vibrant, fully responsive showcase with glassmorphism design, floating 3D educational elements, program cards with flip effects, parent testimonials, gallery, FAQ, and enrollment form.",
+  "features": [
+    "Animated 3D hero with floating shapes (stars, books, ABC letters, pencils)",
+    "Glassmorphism program cards with 3D flip hover effect",
+    "Scroll-triggered animated stats counters",
+    "Teaching approaches & specialized services sections",
+    "Photo gallery with lightbox and hover zoom",
+    "Parent testimonials carousel",
+    "FAQ accordion",
+    "Enrollment & contact form with backend storage",
+    "Object-storage gallery images",
+    "Fully responsive — mobile, tablet, desktop",
+    "Premium Google Fonts: Nunito & Fredoka One",
+    "Vibrant color palette: purples, yellows, pinks, teals, coral"
+  ],
+  "category": "education",
+  "tags": [
+    "kids",
+    "preschool",
+    "school",
+    "education",
+    "3d-animations",
+    "glassmorphism",
+    "responsive",
+    "landing-page"
+  ],
+  "last_updated": "2026-04-24T14:58:57.551Z"
+}

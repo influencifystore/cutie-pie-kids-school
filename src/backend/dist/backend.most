@@ -1,0 +1,47 @@
+// Version: 1.0.0
+type EnrollmentId__165279902 = Nat;
+type EnrollmentStatus__1000718566 = {#pending; #reviewed};
+type Enrollment__1071468852 =
+  {
+    childAge : Text;
+    childName : Text;
+    email : Text;
+    id : EnrollmentId__165279902;
+    message : Text;
+    parentName : Text;
+    phone : Text;
+    programInterest : Text;
+    status : EnrollmentStatus__1000718566;
+    submittedAt : Timestamp__301639476
+  };
+type Int__270357528 = Int__616954475;
+type Int__616954475 = Int;
+type Nat__490723111 = Nat__920180692;
+type Nat__920180692 = Nat;
+type TestimonialId__347260858 = Nat;
+type Testimonial__450159592 =
+  {
+    childProgram : Text;
+    id : TestimonialId__347260858;
+    parentName : Text;
+    quote : Text;
+    rating : Nat
+  };
+type Time__796480547 = Int__270357528;
+type Time__900049286 = Time__796480547;
+type Timestamp__301639476 = Time__900049286;
+actor {
+  stable enrollments :
+    {
+      var blockIndex : Nat__490723111;
+      var blocks : [var [var ?Enrollment__1071468852]];
+      var elementIndex : Nat__490723111
+    };
+  stable var nextEnrollmentId : {var value : Nat};
+  stable testimonials :
+    {
+      var blockIndex : Nat__490723111;
+      var blocks : [var [var ?Testimonial__450159592]];
+      var elementIndex : Nat__490723111
+    }
+};
